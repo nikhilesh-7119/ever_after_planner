@@ -32,6 +32,7 @@ A wedding planning app built with Flutter, Dart, and GetX on a Firebase backend.
 * **Animations**: Lottie (asset JSON) for a lightweight header loop; can be deferred for faster first paint.
 
 # ScreenRecording Link:
+https://drive.google.com/file/d/1xwYTkhIxvDD3Qfjfv03oOXkRQCNDcA3G/view?usp=drive_link
 
 # Run on your device:
 * 🔧 Prerequisites
