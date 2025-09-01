@@ -1,0 +1,55 @@
+import 'package:ever_after_planner/models/venue_model.dart';
+
+
+final List<VenueModel> seedVenues = [
+  VenueModel(
+    id: 'sunset_manor_goa',
+    name: 'Sunset Manor',
+    location: 'Goa',
+    rating: 4.9,
+    capacity: 300,
+    budgetMinLakh: 15,
+    budgetMaxLakh: 20,
+    imageAsset: 'lib/assets/images/venue1.jpeg',
+  ),
+  VenueModel(
+    id: 'royal_garden_mumbai',
+    name: 'Royal Garden Palace',
+    location: 'Mumbai, Maharashtra',
+    rating: 4.8,
+    capacity: 800,
+    budgetMinLakh: 8,
+    budgetMaxLakh: 12,
+    imageAsset: 'lib/assets/images/venue2.jpeg',
+  ),
+  VenueModel(
+    id: 'heritage_villa_jaipur',
+    name: 'Heritage Villa',
+    location: 'Jaipur, Rajasthan',
+    rating: 4.7,
+    capacity: 500,
+    budgetMinLakh: 10,
+    budgetMaxLakh: 15,
+    imageAsset: 'lib/assets/images/venue3.jpeg',
+  ),
+  VenueModel(
+    id: 'lake_view_udr',
+    name: 'Lake View Resort',
+    location: 'Udaipur, Rajasthan',
+    rating: 4.9,
+    capacity: 400,
+    budgetMinLakh: 20,
+    budgetMaxLakh: 25,
+    imageAsset: 'lib/assets/images/venue4.jpeg',
+  ),
+  VenueModel(
+    id: 'city_banquet_delhi',
+    name: 'City Banquet Hall',
+    location: 'Delhi',
+    rating: 4.5,
+    capacity: 600,
+    budgetMinLakh: 5,
+    budgetMaxLakh: 8,
+    imageAsset: 'lib/assets/images/venue5.jpeg',
+  ),
+];

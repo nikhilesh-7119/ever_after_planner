@@ -1,0 +1,77 @@
+
+import 'package:ever_after_planner/models/task_model.dart';
+
+final List<TaskModel> seedTasks = [
+  TaskModel(
+    id: 'venue',
+    title: 'Book wedding venue',
+    category: 'Venue',
+    lastDateText: 'Aug 15',
+    urgency: Urgency.high,
+    completed: false,
+  ),
+  TaskModel(
+    id: 'photography',
+    title: 'Hire photographer',
+    category: 'Photography',
+    lastDateText: 'Sep 2',
+    urgency: Urgency.high,
+    completed: false,
+  ),
+  TaskModel(
+    id: 'cake',
+    title: 'Choose wedding cake',
+    category: 'Catering',
+    lastDateText: 'Sep 10',
+    urgency: Urgency.medium,
+    completed: false,
+  ),
+  TaskModel(
+    id: 'dj_band',
+    title: 'Book DJ/Band',
+    category: 'Music',
+    lastDateText: 'Aug 20',
+    urgency: Urgency.medium,
+    completed: true,
+  ),
+  TaskModel(
+    id: 'honeymoon',
+    title: 'Plan honeymoon trip',
+    category: 'Honeymoon',
+    lastDateText: 'Sep 15',
+    urgency: Urgency.low,
+    completed: true,
+  ),
+  TaskModel(
+    id: 'palette',
+    title: 'Choose color palette',
+    category: 'Décor',
+    lastDateText: 'Aug 10',
+    urgency: Urgency.medium,
+    completed: true,
+  ),
+  TaskModel(
+    id: 'caterer',
+    title: 'Book caterer',
+    category: 'Catering',
+    lastDateText: 'Sep 5',
+    urgency: Urgency.high,
+    completed: false,
+  ),
+  TaskModel(
+    id: 'mehendi',
+    title: 'Plan mehendi ceremony',
+    category: 'Mehendi',
+    lastDateText: 'Sep 12',
+    urgency: Urgency.medium,
+    completed: true,
+  ),
+  TaskModel(
+    id: 'sangeet',
+    title: 'Plan sangeet night',
+    category: 'Sangeet',
+    lastDateText: 'Sep 14',
+    urgency: Urgency.medium,
+    completed: false,
+  ),
+];

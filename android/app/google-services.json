@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "79761324387",
+    "project_id": "ecerafterplanner",
+    "storage_bucket": "ecerafterplanner.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:79761324387:android:519a14c6849a1a2f93fb56",
+        "android_client_info": {
+          "package_name": "com.example.ever_after_planner"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBik9uZdtftu-vdk6G9Z_aOtNyDnW3D2n0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
